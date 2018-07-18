@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form2</title>
+</head>
+<body>
+<p>您正在申请思沃银行的信用卡，您的资料将采用加密技术传输，请放心填写。</p>
+<form action="" method="post">
+  <p>姓名： <input type="text" name="name" value="请与证件一致"></p>
+  <p>身份证号： <input type="text" name="ID number"></p>
+  <p>手机号： <input type="text" name="phone number">   <button type="button">获取验证码</button></p>
+  <p>短信验证码： <input type="text" name="verification code"></p>
+  <p>单位所在城区：
+    <select name="province" >
+      <option value="province">请选择省/直辖市</option>
+      <option value="province">北京市</option>
+      <option value="province">四川省</option>
+      <option value="province">湖北省</option>
+    </select>
+    <select name="city" >
+      <option value="city">请选择市/地区</option>
+      <option value="city">成都市</option>
+      <option value="city">武汉市</option>
+      <option value="city">西安市</option>
+    </select>
+    <select name="district" >
+      <option value="district">请选择省/直辖市</option>
+      <option value="district">北京市</option>
+      <option value="district">四川省</option>
+      <option value="district">湖北省</option>
+    </select>
+  </p>
+  <p>单位详细地址： <input type="text" name="address"></p>
+  <p>单位名称： <input type="text" name="company name" value="暂不受理非在职人员"></p>
+  <p><input type="checkbox" name="agreement" value="agreement">我已阅读并知晓《思沃银行信用卡章程》《思沃银行信用卡（个人卡）领用合约》及该信用卡的相关信息，并愿意遵守各项规章。</p>
+<button type="submit">提交</button>
+
+</form>
+</body>
+</html>
