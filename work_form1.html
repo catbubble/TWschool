@@ -3,18 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>Form1</title>
+  <style type="text/css">
+    .head {
+      display: inline-block;
+      width: 120px;
+    }
+    button {
+      background-color: lightgrey;
+      border-color: darkgray;
+    }
+  </style>
 </head>
 <body>
 <form action="" method="post">
-  <p>账号：<input type="text" name="账号" value="请输入想注册的账号"></p>
-  <p>密码：<input type="text" name="密码" value="请设置您账号的登录密码"></p>
-  <p>重复密码：<input type="text" name="重复密码" value="再次输入密码"></p>
-  <p>验证码：<input type="text" name="验证码" value="请输入六位验证码"></p>
-  <p>性别：
+  <p><div class="head">账号：</div><input type="text" name="账号" placeholder="请输入想注册的账号"></p>
+  <p><div class="head">密码：</div><input type="text" name="密码" placeholder="请设置您账号的登录密码"></p>
+  <p><div class="head">重复密码：</div><input type="text" name="重复密码" placeholder="再次输入密码"></p>
+  <p><div class="head">验证码：</div><input type="text" name="验证码" placeholder="请输入六位验证码"></p>
+  <p><div class="head">性别：</div>
     <input type="radio" name="sex" value="male">男
     <input type="radio" name="sex" value="female">女
   </p>
-  <p>玩过什么游戏:
+  <p><div class="head">玩过什么游戏:</div>
     <input type="checkbox" name="玩过什么游戏" value="英雄联盟">英雄联盟
     <input type="checkbox" name="玩过什么游戏" value="穿越火线">穿越火线
     <input type="checkbox" name="玩过什么游戏" value="魔兽世界">魔兽世界
