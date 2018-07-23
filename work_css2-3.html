@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>css2-3</title>
+  <style>
+    [title] {
+      color: red;
+    }
+    [title="demo"] {
+      color: olivedrab;
+    }
+    [title*="demo"] {
+      font-size: larger;
+    }
+    [title="zh"], [title^="zh-"] {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div>aa</div>
+<div title="demo">aa</div>
+<div title="demo2">bb</div>
+<div title="zh">cc</div>
+<div title="zhou">dd</div>
+<div title="ddemo">ee</div>
+<div title="zh-ou">ff</div>
+<div title="zh-e">gg</div>
+<div title="de">hh</div>
+<div title="aa">ii</div>
+
+</body>
+</html>
